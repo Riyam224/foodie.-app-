@@ -1,6 +1,7 @@
 // ignore_for_file: unused_field, prefer_final_fields
 
 import 'package:flutter/material.dart';
+import 'package:foodie/auth/presentation/views/login_view.dart';
 import 'package:foodie/core/utils/app_colors.dart';
 import 'package:foodie/core/utils/assets.dart';
 import 'package:foodie/onboarding/presentation/widgets/page_view_item.dart';
@@ -105,7 +106,20 @@ class _OnboardingViewState extends State<OnboardingView> {
           CustomButton(
             text: _currentPage < 2 ? 'Skip' : 'Get Started',
             color: AppColors.orangeBase,
-            onPressed: nextPage,
+            onPressed: () {
+              if (_currentPage < 2) {
+                // Skip logic here
+                nextPage(); // Assuming nextPage() is already implemented
+              } else {
+                // Navigate to Login page when Get Started is pressed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => LoginView(),
+                  ), // Replace with your actual Login page
+                );
+              }
+            },
           ),
           SizedBox(height: 100),
         ],

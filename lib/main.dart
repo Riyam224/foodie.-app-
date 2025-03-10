@@ -3,7 +3,7 @@ import 'package:foodie/splash/presentation/views/splash_view.dart';
 import 'core/utils/app_routes.dart';
 
 void main() {
-  runApp(const Foodie());
+  runApp(Foodie());
 }
 
 class Foodie extends StatelessWidget {
