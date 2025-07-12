@@ -37,7 +37,7 @@ class PageViewItem extends StatelessWidget {
                         onTap: () {
                           // Handle the action for "Skip"
                           print('Skip pressed');
-                          Navigator.pushReplacementNamed(context, 'login');
+                          Navigator.pushReplacementNamed(context, 'nav');
                         },
                         child: Text(
                           'Skip',

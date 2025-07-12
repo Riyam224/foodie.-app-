@@ -30,9 +30,9 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.8
   dots_indicator: ^2.1.0
-  # firebase_core: ^3.12.1
   flutter:
     sdk: flutter
+  google_nav_bar: ^5.0.7
   smooth_page_indicator: ^1.2.1
 
 dev_dependencies:

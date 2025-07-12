@@ -1,9 +1,9 @@
 // ignore_for_file: unused_field, prefer_final_fields
 
 import 'package:flutter/material.dart';
-import 'package:foodie/auth/presentation/views/login_view.dart';
 import 'package:foodie/core/utils/app_colors.dart';
 import 'package:foodie/core/utils/assets.dart';
+import 'package:foodie/nav.dart';
 import 'package:foodie/onboarding/presentation/widgets/page_view_item.dart';
 import 'package:foodie/splash/presentation/widgets/custom_button.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -115,7 +115,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => LoginView(),
+                    builder: (context) => NavView(),
                   ), // Replace with your actual Login page
                 );
               }
