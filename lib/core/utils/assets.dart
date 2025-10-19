@@ -38,10 +38,6 @@ class Assets {
   /// assets/images/splash1.png
   static const String imagesSplash1 = "assets/images/splash1.png";
 
-  /// Assets for imagesTransfer 
-  /// assets/images/Transfer .png
-  static const String imagesTransfer  = "assets/images/Transfer .png";
-
   /// Assets for imagesWelcome
   /// assets/images/welcome.png
   static const String imagesWelcome = "assets/images/welcome.png";
