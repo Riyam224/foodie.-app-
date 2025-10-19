@@ -73,7 +73,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                 PageViewItem(
                   showSkip: true,
                   bg: Assets.imagesPagev3,
-                  icon: Assets.imagesTransfer,
+                  icon: Assets.imagesFingerprint,
                   title: 'Easy Payment',
                   subtitle:
                       'Lorem ipsum dolor sit amet, conse ctetur  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodie/splash/presentation/views/splash_view.dart';
+import 'package:foodie/home_view.dart';
 import 'core/utils/app_routes.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class Foodie extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: nGenerateRoute,
-      initialRoute: SplashView.routeName,
+      initialRoute: HomeView.routeName,
     );
   }
 }
